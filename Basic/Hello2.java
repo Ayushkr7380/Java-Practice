@@ -1,9 +1,11 @@
 class Ayush{
+    //Constructor
     Ayush(){
         System.out.println("I am Ayush.");
     }
 }
 class Abhi{
+    //constructor
     Abhi(){
         System.out.println("I am Abhi.");
     }
