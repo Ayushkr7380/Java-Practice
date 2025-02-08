@@ -10,7 +10,7 @@ public class CountCurrency {
 
         for(int i=0;i<denominations.length;i++){
             count[i] = money / denominations[i]; //Calculate number of notes 
-            money = money % denominations[i];
+            money = money % denominations[i]; 
         }
 
         for(int i=0;i<denominations.length;i++){
