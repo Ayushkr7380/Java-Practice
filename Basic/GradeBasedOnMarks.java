@@ -14,7 +14,13 @@ public class GradeBasedOnMarks{
             case 6 : System.out.println("Grade D.");break;
             case 5 : System.out.println("Grade E.");break;
             
-            default:System.out.println("Failed.");break;
+            default:
+            if(num >=0){
+                System.out.println("Failed.");
+            }
+            else{
+                System.out.println("Please Enter valid marks.");
+            }
         }
     }
 }
