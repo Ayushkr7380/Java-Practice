@@ -3,20 +3,27 @@ public class StringFunctions {
         String str1 = "Ayush";
         String str2 = "Ayush";
 
-        //Uppercase
+        //toUpperCase()
         System.out.println("UpperCase : "+str1.toUpperCase());
 
-        //Lowercase
+        //toLowerCase()
         System.out.println("LowerCase : "+str1.toLowerCase());
 
-        //Equals
+        //equals()
         System.out.println("Equal function returns true or false ,In this case it returs : "+str1.equals(str2));
-        
+
         if(str1.equals(str2)){
             System.out.println("Both Strings are equal.");
         }
         else{
             System.out.println("Strings are different.");
         }
+
+        //contains()
+        System.out.println(str1+" contains b : "+str1.contains("b"));
+        
+        //endsWith()
+        System.out.println(str1+" ends with h : "+str1.endsWith("h"));
+        
     }
 }
