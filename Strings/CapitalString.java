@@ -7,5 +7,6 @@ public class CapitalString {
 
         //Capital the string 
         System.out.println("String in capital is "+str1.toUpperCase());
+        
     }
 }
