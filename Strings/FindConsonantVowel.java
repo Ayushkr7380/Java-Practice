@@ -1,7 +1,7 @@
 
 public class FindConsonantVowel {
     public static void main(String args[]){
-        String str1 = "Ayushi";
+        String str1 = "Ayush kumar";
         String str2 = str1.toLowerCase();
         String[] vowels = new String[]{"a", "e", "i", "o", "u"};
         int vowelCount  = 0;
