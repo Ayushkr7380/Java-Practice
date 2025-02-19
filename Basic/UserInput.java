@@ -52,12 +52,15 @@ public class UserInput {
     public static void main(String args[]){
         int num1,num2;
         Scanner sc = new Scanner(System.in);
-
+        
+        //Take first number from the user
         System.out.print("Enter 1st number : ");
         num1 = sc.nextInt();
-
+        
+        //Take second number from the user
         System.out.print("Enter 2nd number : ");
         num2 = sc.nextInt();
+        
 
         Addition add = new Addition(num1, num2);
         Subtraction sub = new Subtraction(num1, num2);
