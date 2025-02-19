@@ -67,6 +67,7 @@ public class UserInput {
         Multiplication mul = new Multiplication(num1, num2);
         Division div = new Division(num1, num2);
         
+        //Display output
         System.out.println("Sum is "+add.addition());
         System.out.println("Minus is "+sub.sub());
         System.out.println("Multiple is "+mul.mul());
