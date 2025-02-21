@@ -15,7 +15,7 @@ public class Table{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter 1st number : ");
         int num = sc.nextInt();
-        
+        sc.close();
         Table1 t1 = new Table1(num);
         t1.table();
     }

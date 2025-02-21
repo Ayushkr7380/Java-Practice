@@ -4,7 +4,7 @@ public class LargestAndSmallestDigit {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any number : ");
         int num = sc.nextInt();
-
+        sc.close();
         int LargestDigit=0,Smallestdigit=9;
         int temp = num;
         while(temp!=0){

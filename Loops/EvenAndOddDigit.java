@@ -4,6 +4,7 @@ public class EvenAndOddDigit {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any number : ");
         int num = sc.nextInt();
+        sc.close();
         int EvenCount = 0,OddCount = 0;
         int temp = num;
         while(temp!=0){

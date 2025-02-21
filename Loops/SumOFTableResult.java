@@ -14,6 +14,7 @@ public class SumOFTableResult {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any number : ");
         int num = sc.nextInt();
+        sc.close();
         SumTable st = new SumTable();
         st.sumTable(num);
     }

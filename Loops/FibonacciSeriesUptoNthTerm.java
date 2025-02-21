@@ -4,6 +4,7 @@ public class FibonacciSeriesUptoNthTerm {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any number : ");
         int term = sc.nextInt();
+        sc.close();
         int first = 0,second=1,next,i=0;
         while(i<term){
             next = first + second;

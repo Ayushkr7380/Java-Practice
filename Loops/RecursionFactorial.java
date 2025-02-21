@@ -12,6 +12,7 @@ public class RecursionFactorial {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter any number : ");
         int num = sc.nextInt();
+        sc.close();
         RecursiveFact f1 = new RecursiveFact();
 
         System.out.println("Factorial of "+num+" is "+f1.recursive(num));

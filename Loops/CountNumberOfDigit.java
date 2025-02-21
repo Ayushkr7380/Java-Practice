@@ -4,7 +4,7 @@ public class CountNumberOfDigit {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any number : ");
         int num = sc.nextInt();
-
+        sc.close();
         int temp = num;
         int count = 0;
         while(temp!=0){
