@@ -4,7 +4,8 @@ public class Matrix_2X2 {
         int mat2[][] = {{34,5},{1,78}};
         int matAdd[][] = {{0,0},{0,0}};
         int matMul[][] = {{0,0},{0,0}};
-        int matTranspose[][] = {{0,0},{0,0}};
+        int matTranspose1[][] = {{0,0},{0,0}};
+        int matTranspose2[][] = {{0,0},{0,0}};
 
         //For matrix addition
         for(int i=0;i<2;i++){
@@ -23,7 +24,15 @@ public class Matrix_2X2 {
 
         for(int i=0;i<2;i++){
             for(int j=0;j<2;j++){
-                matTranspose[j][i] = mat1[i][j];
+                matTranspose1[j][i] = mat1[i][j];
+            }
+        }
+
+        //Transponse of matrix 2
+
+        for(int i=0;i<2;i++){
+            for(int j=0;j<2;j++){
+                matTranspose2[j][i] = mat2[i][j];
             }
         }
 
@@ -49,7 +58,16 @@ public class Matrix_2X2 {
         System.out.println("Transpose of matrix 1 is : ");
         for(int i=0;i<2;i++){
             for(int j=0;j<2;j++){
-                System.out.print(" "+matTranspose[i][j]);
+                System.out.print(" "+matTranspose1[i][j]);
+            }
+            System.out.println("");
+        }
+
+        //Display transpose of matrix 2
+        System.out.println("Transpose of matrix 2 is : ");
+        for(int i=0;i<2;i++){
+            for(int j=0;j<2;j++){
+                System.out.print(" "+matTranspose2[i][j]);
             }
             System.out.println("");
         }
