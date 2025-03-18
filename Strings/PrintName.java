@@ -1,7 +1,7 @@
 class PrintName{
     public static void main(String args[]){
         //Option 1..
-        String name = "Ayush kumar";
+        String name = "Ayush";
         System.out.println("The name is "+name);
 
         //Option 2..
