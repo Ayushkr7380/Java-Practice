@@ -8,6 +8,7 @@ public class CapitalString {
         String str1 = sc.nextLine();
 
         //Capital the string 
+        //toUpperCase() is used
 
         System.out.println("String in capital is "+str1.toUpperCase());
         
