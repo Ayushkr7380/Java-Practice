@@ -2,6 +2,8 @@ import java.util.*;
 public class ReverseString {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+
+        //Prompt user to enter any string 
         System.out.print("Enter any string : ");
         String str1 = sc.nextLine();
 
