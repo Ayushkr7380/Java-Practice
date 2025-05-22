@@ -8,7 +8,7 @@ public class ArrayException {
             System.out.println("Element at index 5: " + numbers[5]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Error: Index is out of bounds.");
-        } finally {
+        } finally { //Run whether try catch will execute or not 
             System.out.println("Array access attempt completed.");
         }
     }
