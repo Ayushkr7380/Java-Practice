@@ -1,5 +1,6 @@
 public class ArrayException {
     public static void main(String[] args) {
+        //Declare and initialize number array
         int[] numbers = {10, 20, 30, 40, 50};
 
         try {
