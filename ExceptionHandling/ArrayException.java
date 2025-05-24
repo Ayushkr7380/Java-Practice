@@ -1,5 +1,6 @@
 public class ArrayException {
     public static void main(String[] args) {
+        //Declare and initialize number array
         int[] numbers = {10, 20, 30, 40, 50};
 
         try {
@@ -7,7 +8,7 @@ public class ArrayException {
             System.out.println("Element at index 5: " + numbers[5]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Error: Index is out of bounds.");
-        } finally {
+        } finally { //Run whether try catch will execute or not 
             System.out.println("Array access attempt completed.");
         }
     }
