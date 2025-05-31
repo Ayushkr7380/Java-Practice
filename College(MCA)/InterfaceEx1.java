@@ -23,11 +23,16 @@ class Girl implements Human {
 // Main class to run the program
 class InterfaceEx1 {
     public static void main(String args[]) {
-        // Create an object of Girl class
+        // Create first object of Girl class
         Girl ayushi = new Girl();
-
-        // Call the implemented methods using the object
+        System.out.println("Ayushi's traits:");
         ayushi.longHair();     // Output: This girl has long hair.
         ayushi.smartness();    // Output: This girl is very smart.
+
+        // Create second object of Girl class
+        Girl riya = new Girl();
+        System.out.println("\nRiya's traits:");
+        riya.longHair();       // Output: This girl has long hair.
+        riya.smartness();      // Output: This girl is very smart.
     }
 }
