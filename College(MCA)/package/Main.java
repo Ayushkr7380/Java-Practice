@@ -7,6 +7,9 @@ public class Main {
 
         Operations o1 = new Operations();
         int sum = o1.addition(2,4);
-        System.out.println("sum is "+sum);
+        System.out.println("Sum is "+sum);
+
+        int mul = o1.multiplication(2,4);
+        System.out.println("Multiplication is "+mul);
     }
 }
