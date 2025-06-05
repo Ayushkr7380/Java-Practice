@@ -14,5 +14,8 @@ public class Main {
 
         int mul = o1.multiplication(2,4);
         System.out.println("Multiplication is "+mul);
+
+        int div = o1.division(2,4);
+        System.out.println("Division is "+div);
     }
 }

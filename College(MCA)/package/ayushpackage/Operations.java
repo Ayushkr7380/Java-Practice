@@ -11,4 +11,8 @@ public class Operations {
     public int subtraction(int x1,int x2){
         return x1-x2;
     }
+    public int division(int x1,int x2){
+        return x1/x2;
+    }
+    
 }
