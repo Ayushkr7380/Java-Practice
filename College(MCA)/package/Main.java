@@ -9,6 +9,9 @@ public class Main {
         int sum = o1.addition(2,4);
         System.out.println("Sum is "+sum);
 
+        int sub = o1.subtraction(2, 4);
+        System.out.println("Subtraction is "+sub);
+
         int mul = o1.multiplication(2,4);
         System.out.println("Multiplication is "+mul);
     }
