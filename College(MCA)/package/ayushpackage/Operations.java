@@ -1,18 +1,27 @@
+// Define the package name
 package ayushpackage;
 
+// Define a public class named Operations
 public class Operations {
-    
-    public int addition(int x1,int x2){
-        return x1+x2;
+
+    // Method to perform addition of two integers
+    public int addition(int x1, int x2) {
+        return x1 + x2;  // Returns the sum
     }
-    public int multiplication(int x1,int x2){
-        return x1*x2;
+
+    // Method to perform multiplication of two integers
+    public int multiplication(int x1, int x2) {
+        return x1 * x2;  // Returns the product
     }
-    public int subtraction(int x1,int x2){
-        return x1-x2;
+
+    // Method to perform subtraction of two integers
+    public int subtraction(int x1, int x2) {
+        return x1 - x2;  // Returns the difference
     }
-    public int division(int x1,int x2){
-        return x1/x2;
+
+    // Method to perform division of two integers
+    public int division(int x1, int x2) {
+        return x1 / x2;  // Returns the quotient (note: integer division)
     }
-    
+
 }
