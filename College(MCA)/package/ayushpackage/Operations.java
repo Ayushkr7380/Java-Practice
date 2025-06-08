@@ -29,6 +29,11 @@ public class Operations {
         return x1 > x2;
     }
 
+    // Method to check if x1 is less than x2
+    public boolean isLess(int x1, int x2) {
+        return x1 < x2;
+    }
+
     // Method to check if x1 is equal to x2
     public boolean isEqual(int x1, int x2) {
         return x1 == x2;

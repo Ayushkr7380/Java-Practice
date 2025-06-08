@@ -12,20 +12,31 @@ public class Main {
         // Creating an object of Operations class to perform arithmetic operations
         Operations o1 = new Operations();
 
-        // Performing addition of 2 and 4
-        int sum = o1.addition(2, 4);
+        int a = 2;
+        int b = 4;
+
+        // Performing addition of a and b
+        int sum = o1.addition(a, b);
         System.out.println("Sum is " + sum);
 
-        // Performing subtraction of 4 from 2
-        int sub = o1.subtraction(2, 4);
+        // Performing subtraction of b from a
+        int sub = o1.subtraction(a, b);
         System.out.println("Subtraction is " + sub);
 
-        // Performing multiplication of 2 and 4
-        int mul = o1.multiplication(2, 4);
+        // Performing multiplication of a and b
+        int mul = o1.multiplication(a, b);
         System.out.println("Multiplication is " + mul);
 
-        // Performing division of 2 by 4
-        int div = o1.division(2, 4);
+        // Performing division of a by b
+        int div = o1.division(a, b);
         System.out.println("Division is " + div);
+
+        // Performing comparison operations
+        System.out.println("Is " + a + " greater than " + b + "? " + o1.isGreater(a, b));
+        System.out.println("Is " + a + " less than " + b + "? " + o1.isLess(a, b));
+        System.out.println("Is " + a + " equal to " + b + "? " + o1.isEqual(a, b));
+        System.out.println("Is " + a + " not equal to " + b + "? " + o1.isNotEqual(a, b));
+        System.out.println("Is " + a + " greater than or equal to " + b + "? " + o1.isGreaterOrEqual(a, b));
+        System.out.println("Is " + a + " less than or equal to " + b + "? " + o1.isLessOrEqual(a, b));
     }
 }
