@@ -24,4 +24,9 @@ public class Operations {
         return x1 / x2;  // Returns the quotient (note: integer division)
     }
 
+    // Method to check if x1 is greater than x2
+    public boolean isGreater(int x1, int x2) {
+        return x1 > x2;
+    }
+
 }
