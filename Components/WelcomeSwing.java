@@ -1,6 +1,6 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 public class WelcomeSwing {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class WelcomeSwing {
         // Add action listener to the button
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                panel.setBackground(Color.CYAN); // Change background color
+                panel.setBackground(Color.RED); // Change background color
                 messageLabel.setText("Welcome to Java Swing"); // Set message
             }
         });
