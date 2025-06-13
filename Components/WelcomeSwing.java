@@ -12,7 +12,7 @@ public class WelcomeSwing {
         // Create a panel and a button
         JPanel panel = new JPanel();
         JButton button = new JButton("Click Me");
-
+        
         JLabel messageLabel = new JLabel(""); // Initially empty
 
         // Add action listener to the button
