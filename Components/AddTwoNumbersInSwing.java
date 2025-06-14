@@ -26,8 +26,8 @@ public class AddTwoNumbersInSwing {
                 try {
                     int num1 = Integer.parseInt(text1.getText());
                     int num2 = Integer.parseInt(text2.getText());
-                    int sum = num1 + num2;
-                    resultLabel.setText("Result: " + sum);
+                    
+                    resultLabel.setText("Result: " +( num1+num2));
                 } catch (NumberFormatException ex) {
                     resultLabel.setText("Please enter valid numbers!");
                 }
